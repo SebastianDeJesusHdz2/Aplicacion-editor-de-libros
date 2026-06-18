@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Entornos locales
+.venv/
+venv/
+env/
+ENV/
+
+# IDE y editor
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Datos privados y contenido generado por la app
+library/
+exports/
+backups/
+*.pescritura/
+*.csv
+*.pdf
+*.sqlite
+*.sqlite3
+*.db
+
+# Secretos y configuracion local
+.env
+.env.*
+*.local
+*.secret
+*.key
+*.pem
+*.token
+
+# Metadata de este entorno
+.agents/
+.codex/
+
+# Empaquetado y build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
