@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Pescritura">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1714"/>
+      <stop offset="1" stop-color="#101614"/>
+    </linearGradient>
+    <linearGradient id="book" x1="68" y1="52" x2="188" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1d28b"/>
+      <stop offset="1" stop-color="#b57a2a"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="86" y1="86" x2="166" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8efe0"/>
+      <stop offset="1" stop-color="#d8c8ac"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="14" width="228" height="228" rx="54" fill="url(#bg)"/>
+  <path d="M60 70c0-8 6-14 14-14h78c16 0 30 11 34 27l8 29v86c0 8-6 14-14 14H74c-8 0-14-6-14-14V70z" fill="url(#book)"/>
+  <path d="M74 60h68c13 0 24 9 27 22l6 25v76H74c-5 0-10 4-10 10V70c0-6 4-10 10-10z" fill="#2a241d" opacity=".32"/>
+  <path d="M84 78h58c3 0 6 3 6 6s-3 6-6 6H84c-3 0-6-3-6-6s3-6 6-6zm0 24h72c3 0 6 3 6 6s-3 6-6 6H84c-3 0-6-3-6-6s3-6 6-6zm0 24h66c3 0 6 3 6 6s-3 6-6 6H84c-3 0-6-3-6-6s3-6 6-6z" fill="url(#ink)"/>
+  <path d="M94 174h62c3 0 6 3 6 6s-3 6-6 6H94c-3 0-6-3-6-6s3-6 6-6z" fill="url(#ink)" opacity=".95"/>
+  <path d="M166 56l22 22-56 56-28 6 6-28 56-56z" fill="#f7f2e8"/>
+  <path d="M188 78l-16-16 10-10c5-5 13-5 18 0l-12 26z" fill="#e1c089"/>
+  <path d="M120 138l6-28 28 28-28 6-6-6z" fill="#b16b2c"/>
+  <circle cx="160" cy="64" r="5" fill="#101614"/>
+  <circle cx="172" cy="76" r="3" fill="#101614"/>
+</svg>

@@ -15,6 +15,25 @@ python3 -m venv .venv
 .venv/bin/python main.py
 ```
 
+## Instalacion en KDE
+
+Para dejarla instalada en tu usuario y verla en el menu de KDE:
+
+```bash
+bash install.sh
+```
+
+Para desinstalarla despues:
+
+```bash
+bash uninstall.sh
+```
+
+La instalacion separa el codigo de los datos:
+
+- `~/.local/share/pescritura/app/`: aplicacion instalada.
+- `~/.local/share/pescritura/data/`: obras, exportaciones y archivos creados por la app.
+
 ## Que hace
 
 - Gestiona una biblioteca local de obras dentro de `library/`.

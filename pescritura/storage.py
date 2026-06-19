@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import zipfile
@@ -11,8 +12,9 @@ from .models import Project, create_empty_project, now_iso
 
 
 APP_ROOT = Path(__file__).resolve().parents[1]
-LIBRARY_DIR = APP_ROOT / "library"
-EXPORTS_DIR = APP_ROOT / "exports"
+DATA_ROOT = Path(os.environ.get("PESCRITURA_DATA_DIR", APP_ROOT)).expanduser()
+LIBRARY_DIR = DATA_ROOT / "library"
+EXPORTS_DIR = DATA_ROOT / "exports"
 PROJECT_FILE = "project.json"
 
 
